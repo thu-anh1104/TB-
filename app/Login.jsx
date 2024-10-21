@@ -13,7 +13,7 @@ const Login = () => {
   const navigation = useNavigation();
 
   const handleLogin = () => {
-    if (email === 'anhthucute.com' && password === '1104') {
+    if (email === 'anhthucute.com' && password === '11040608') {
       router.replace("/(tabs)")
     } else {
       setError('Email hoặc mật khẩu không chính xác');
